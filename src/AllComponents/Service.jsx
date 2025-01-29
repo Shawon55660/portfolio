@@ -14,7 +14,7 @@ const Service = () => {
                <div  className='text-center flex flex-col h-full p-8 shadow-xl rounded-md bg-gray-50'>
                     <div className=''>
                    <div className='bg-white w-12 mx-auto rounded-full shadow-inner transition-all hover:shadow-xl'>
-                   <img className='mx-auto w-full shadow-inner rounded-full    p-2' src="https://img.icons8.com/?size=100&id=14173&format=png&color=01D206" alt="" />
+                   <img className='mx-auto w-full shadow-inner rounded-full    p-2' src="https://img.icons8.com/?size=100&id=14173&format=png&color=4ade80" alt="" />
                    </div>
                     <h2 className='text-2xl font-semibold py-2 capitalize'>Responsive design</h2>
                     </div>
@@ -25,7 +25,7 @@ const Service = () => {
                 <div  className='text-center flex flex-col h-full p-8 shadow-xl rounded-md bg-gray-50'>
                     <div className=''>
                    <div className='bg-white w-12 mx-auto rounded-full shadow-inner transition-all hover:shadow-xl'>
-                   <img className='mx-auto w-full shadow-inner rounded-full    p-2' src="https://img.icons8.com/?size=100&id=85773&format=png&color=01D206" alt="" />
+                   <img className='mx-auto w-full shadow-inner rounded-full    p-2' src="https://img.icons8.com/?size=100&id=85773&format=png&color=4ade80" alt="" />
                    </div>
                     <h2 className='text-2xl font-semibold py-2 capitalize'>graphic design
                   </h2>
@@ -37,7 +37,7 @@ const Service = () => {
                 <div  className='text-center flex flex-col p-8 h-full shadow-xl rounded-md bg-gray-50'>
                     <div className=''>
                    <div className='bg-white w-12 mx-auto rounded-full shadow-inner transition-all hover:shadow-xl'>
-                   <img className='mx-auto w-full shadow-inner rounded-full    p-2' src="https://img.icons8.com/?size=100&id=52203&format=png&color=01D206" alt="" />
+                   <img className='mx-auto w-full shadow-inner rounded-full    p-2' src="https://img.icons8.com/?size=100&id=52203&format=png&color=4ade80" alt="" />
                    </div>
                     <h2 className='text-2xl font-semibold py-2 capitalize'>web design
                    </h2>

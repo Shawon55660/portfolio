@@ -39,7 +39,7 @@ const Project = () => {
                                              <p className='py-2 text-gray-600'>Career hub is a frontend project in this project foced on UI desgin with react</p>
                                              </div>
                                              <div className="card-actions justify-end ">
-                                                 <div className="badge badge-outline">Details</div>
+                                                 
                                                  <div className="badge badge-outline"><a target='blank' href="https://career-hub-41553.web.app/">Live Demo</a></div>
                                              </div>
                                          </div>
@@ -64,7 +64,7 @@ const Project = () => {
                                            </h2>
                                            <p className='text-gray-600 py-2'> SportGallery  is a sport shop were we add equipment and manage our order  </p></div>
                                            <div className="card-actions justify-end flex-grow">
-                                               <div className="badge badge-outline">Details</div>
+                                               
                                                <div className="badge badge-outline"><a target='blank' href="https://sport-equipment-ff06e.web.app/">Live Demo</a></div>
                                            </div>
                                        </div>
@@ -88,7 +88,7 @@ const Project = () => {
                                            <p className='text-gray-600 py-2 flex-grow'> Quora BD is a fullstack Projct In this wep application search any Info</p>
                                           </div>
                                            <div className="card-actions justify-end flex-grow">
-                                               <div className="badge badge-outline ">Details</div>
+                                           
                                                <div className="badge badge-outline"><a target='blank' href="https://quora-65e79.web.app/">Live Demo</a></div>
                                            </div>
                                        </div>

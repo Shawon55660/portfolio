@@ -49,7 +49,7 @@ const Navbar = () => {
           <div className="navbar-end pr-3">
 
             <button className="relative px-4 py-2 font-semibold rounded-md overflow-hidden border border-white text-white shadow-2xl transition-all duration-200 before:absolute before:bottom-0 before:left-0 before:right-0 before:top-0 before:m-auto before:h-0 before:w-0 before:rounded-sm before:bg-white before:duration-300 before:ease-out hover:text-green-400  hover:before:h-40 hover:before:w-40 ">
-              <a target='blank' href="https://docs.google.com/document/d/1jkab9M121UHVPCgiYFcEtY0V12uxdaWJ/edit?usp=sharing&ouid=111748954283500873223&rtpof=true&sd=true"> <span className="relative z-10">Download CV</span></a>
+              <a target='blank' href="https://drive.google.com/file/d/1wigsagPdS85nbCUopq2arImoRNK-TDF9/view?usp=sharing"> <span className="relative z-10">Download CV</span></a>
             </button>
           </div>
         </div>

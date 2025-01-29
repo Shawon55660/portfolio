@@ -12,7 +12,7 @@ const Tabs = () => {
         <div className='    my-12'>
 
             <div role="tablist" className="tabs  w-10/12 mx-auto  tabs-bordered">
-                <input onClick={() => handleStyle('Skills')} type="radio" name="my_tabs_1" role="tab" className={`tab font-semibold ${style == 'Skills' ? 'bg-green-500  text-white rounded-md  shadow-2xl  ' : ''}`} aria-label="Skills" defaultChecked />
+                <input onClick={() => handleStyle('Skills')} type="radio" name="my_tabs_1" role="tab" className={`tab font-semibold ${style == 'Skills' ? 'bg-green-400  text-white rounded-md  shadow-2xl  ' : ''}`} aria-label="Skills" defaultChecked />
                 <div role="tabpanel" className="tab-content w-full  py-10">
                    <Slide>
                    <div className='md:flex gap-6'>
@@ -27,10 +27,10 @@ const Tabs = () => {
     </div>
     <div>
         <div className='flex font-semibold text-gray-600 justify-between mx-2 my-2'>
-            <label >CSS</label>
-            <label >95%</label>
+            <label >Next Js</label>
+            <label >80%</label>
         </div>
-        <p className='py-[1px] px-2 rounded-full shadow-inner'><progress className="progress  " value={95} max="100"></progress></p>
+        <p className='py-[1px] px-2 rounded-full shadow-inner'><progress className="progress  " value={80} max="100"></progress></p>
     </div>
     <div>
         <div className='flex font-semibold text-gray-600 justify-between mx-2 my-2'>
@@ -83,7 +83,7 @@ const Tabs = () => {
 
                 </div>
 
-                <input onClick={() => handleStyle('Experience')} type="radio" name="my_tabs_1" role="tab" className={`tab font-semibold ${style == 'Experience' ? 'bg-green-500  text-white rounded-md  shadow-2xl  ' : ''}`} aria-label="Experience"  />
+                <input onClick={() => handleStyle('Experience')} type="radio" name="my_tabs_1" role="tab" className={`tab font-semibold ${style == 'Experience' ? 'bg-green-400  text-white rounded-md  shadow-2xl  ' : ''}`} aria-label="Experience"  />
                 <div role="tabpanel" className="tab-content my-12 w-full">
 
                     <Zoom>
@@ -91,7 +91,7 @@ const Tabs = () => {
                         <li>
                             <hr />
                             <div className="timeline-middle py-2">
-                                <img className='w-[50px] mx-2 text-green-400' src="https://img.icons8.com/?size=100&id=123839&format=png&color=01D206" alt="" />
+                                <img className='w-[30px] mx-2 text-green-400' src="https://img.icons8.com/?size=100&id=123839&format=png&color=4ade80" alt="" />
                             </div>
 
                             <div className="timeline-start timeline-box">
@@ -107,7 +107,7 @@ const Tabs = () => {
                         <li>
                             <hr />
                             <div className="timeline-middle py-2">
-                                <img className='w-[50px] mx-2 text-green-400' src="https://img.icons8.com/?size=100&id=123839&format=png&color=01D206" alt="" />
+                                <img className='w-[30px] mx-2 text-green-400' src="https://img.icons8.com/?size=100&id=123839&format=png&color=4ade80" alt="" />
                             </div>
                             <div className="timeline-end timeline-box">
 
@@ -130,7 +130,7 @@ const Tabs = () => {
                         <li>
                             <hr />
                             <div className="timeline-middle py-2">
-                                <img className='w-[50px] mx-2 text-green-400' src="https://img.icons8.com/?size=100&id=123839&format=png&color=01D206" alt="" />
+                                <img className='w-[30px] mx-2 text-green-400' src="https://img.icons8.com/?size=100&id=123839&format=png&color=4ade80" alt="" />
                             </div>
 
                             <div className="timeline-start timeline-box">
@@ -149,12 +149,12 @@ const Tabs = () => {
                         <li>
                             <hr />
                             <div className="timeline-middle py-2 ">
-                                <img className='w-[50px] mx-2 text-green-500' src="https://img.icons8.com/?size=100&id=123839&format=png&color=01D206" alt="" />
+                                <img className='w-[30px] mx-2 text-green-400' src="https://img.icons8.com/?size=100&id=123839&format=png&color=4ade80" alt="" />
                             </div>
 
                             <div className="timeline-end timeline-box">
 
-                                <p className='text-md font-semibold mb-4 text-green-500'>Aug ,2019- 2024
+                                <p className='text-md font-semibold mb-4 text-green-400'>Aug ,2019- 2024
 
 </p>
                                 <h2 className='capitalize text-xl font-bold pb-1'>Student</h2>
@@ -169,7 +169,7 @@ const Tabs = () => {
                     </Zoom>
                 </div>
 
-                <input onClick={() => handleStyle('Education')} type="radio" name="my_tabs_1" role="tab" className={`tab font-semibold ${style == 'Education' ? 'bg-green-500  text-white rounded-md  shadow-2xl  ' : ''}`} aria-label="Education" />
+                <input onClick={() => handleStyle('Education')} type="radio" name="my_tabs_1" role="tab" className={`tab font-semibold ${style == 'Education' ? 'bg-green-400  text-white rounded-md  shadow-2xl  ' : ''}`} aria-label="Education" />
                 <div role="tabpanel" className="tab-content w-full  my-12">
 
                <Slide>
@@ -177,12 +177,12 @@ const Tabs = () => {
                 <li>
                             <hr />
                             <div className="timeline-middle py-2">
-                                <img className='w-[40px] mx-2 text-green-400' src="https://img.icons8.com/?size=100&id=40569&format=png&color=01D206" alt="" />
+                                <img className='w-[40px] mx-2 text-green-400' src="https://img.icons8.com/?size=100&id=40569&format=png&color=4ade80" alt="" />
                             </div>
                             <div className="timeline-start shadow-md timeline-box">
 
 
-                            <p className='text-md font-semibold mb-4 text-green-500'>2019 - 2023
+                            <p className='text-md font-semibold mb-4 text-green-400'>2019 - 2023
 
 </p>
                                 <h2 className='capitalize text-xl font-bold pb-1'>Deploma In Computer Enginnerring </h2>
@@ -196,12 +196,12 @@ const Tabs = () => {
                         <li>
                             <hr />
                             <div className="timeline-middle py-2">
-                                <img className='w-[40px] mx-2 text-green-500' src="https://img.icons8.com/?size=100&id=40569&format=png&color=01D206" alt="" />
+                                <img className='w-[40px] mx-2 text-green-400' src="https://img.icons8.com/?size=100&id=40569&format=png&color=4ade80" alt="" />
                             </div>
                             <div className="timeline-end shadow-md timeline-box">
 
 
-                            <p className='text-md font-semibold mb-4 text-green-500'>2018 - 2019
+                            <p className='text-md font-semibold mb-4 text-green-400'>2018 - 2019
 
  </p>
                                 <h2 className='capitalize text-xl font-bold pb-1'> Secondary School Certificate</h2>
@@ -217,12 +217,12 @@ const Tabs = () => {
                         <li>
                             <hr />
                             <div className="timeline-middle py-2">
-                                <img className='w-[40px] mx-2 text-green-500' src="https://img.icons8.com/?size=100&id=40569&format=png&color=01D206" alt="" />
+                                <img className='w-[40px] mx-2 text-green-400' src="https://img.icons8.com/?size=100&id=40569&format=png&color=4ade80" alt="" />
                             </div>
 
                             <div className="timeline-start shadow-md timeline-box">
 
-                            <p className='text-md font-semibold mb-4 text-green-500'>2016 - 2017
+                            <p className='text-md font-semibold mb-4 text-green-400'>2016 - 2017
 
 </p>
                                 <h2 className='capitalize text-xl font-bold pb-1'>Junior School Certificate</h2>
@@ -234,12 +234,12 @@ const Tabs = () => {
                         <li>
                             <hr />
                             <div className="timeline-middle py-2 ">
-                                <img className='w-[40px] mx-2 text-green-500' src="https://img.icons8.com/?size=100&id=40569&format=png&color=01D206" alt="" />
+                                <img className='w-[40px] mx-2 text-green-400' src="https://img.icons8.com/?size=100&id=40569&format=png&color=4ade80" alt="" />
                             </div>
 
                             <div className="timeline-end shadow-md timeline-box">
 
-                                <p className='text-md font-semibold mb-4 text-green-500'>2012-2013</p>
+                                <p className='text-md font-semibold mb-4 text-green-400'>2012-2013</p>
                                 <h2 className='capitalize text-xl font-bold pb-1'>Primary School Certificate</h2>
                                 <p className='text-gray-600 py-2'>primary school Certificate PSC result .I have got GPA 5.00 and the result is good for this time</p>
 
