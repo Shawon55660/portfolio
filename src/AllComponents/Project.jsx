@@ -5,6 +5,7 @@ import ProjectCards from './ProjectCards';
 import project1 from '../../src/assets/project-1.png'
 import project2 from '../../src/assets/project-2.png'
 import project3 from '../../src/assets/project-3.png'
+import project4 from '../../src/assets/project-4.png'
 import { Zoom } from 'react-awesome-reveal';
 
 const Project = () => {
@@ -49,6 +50,28 @@ const Project = () => {
     </TabPanel>
     <TabPanel>
     <div className='grid md:grid-cols-2 lg:grid-cols-3 my-4 gap-4'>
+    <div>
+                   <Zoom>
+                    <div className="card bg-base-100 shadow-xl">
+                                       <figure>
+                                           <img
+                                               src={project4}
+                                               alt="Shoes" />
+                                       </figure>
+                                       <div className="card-body ">
+                                           <div><h2 className="card-title">
+                                           MediStore
+                                           <div className="badge bg-green-400 text-white text-xs ">NEW</div>
+                                           </h2>
+                                           <p className='text-gray-600 py-2'> MediStore is a fullstack e-commerce web application .  </p></div>
+                                           <div className="card-actions justify-end flex-grow">
+                                               
+                                               <div className="badge badge-outline"><a target='blank' href="https://medistore-ddfa1.web.app/">Live Demo</a></div>
+                                           </div>
+                                       </div>
+                                   </div>
+                   </Zoom>
+               </div>
                <div>
                    <Zoom>
                     <div className="card bg-base-100 shadow-xl">

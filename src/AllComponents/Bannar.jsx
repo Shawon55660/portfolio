@@ -41,7 +41,7 @@ const Bannar = () => {
                         <p className='text-xl font-semibold text-gray-400'>Frontend Web Developer</p>
 
                         <button className="relative px-4 py-2 font-semibold rounded-md overflow-hidden border border-green-400 text-green-400 shadow-2xl transition-all duration-200 before:absolute before:bottom-0 before:left-0 before:right-0 before:top-0 before:m-auto before:h-0 before:w-0 before:rounded-sm before:bg-green-400 before:duration-300 before:ease-out hover:text-white hover:before:h-40 hover:before:w-40 ">
-                            <a  target='_blank' href="https://drive.google.com/file/d/1wigsagPdS85nbCUopq2arImoRNK-TDF9/view?usp=sharing"> <span className="relative z-10">Download CV</span></a>
+                            <a  target='_blank' href="https://drive.google.com/file/d/1a_CMfLek6YvLH8MgGjP2guyg0apesVyC/view?usp=sharing"> <span className="relative z-10">Download CV</span></a>
                         </button>
                         <ul className='flex gap-2'>
                             <li>
